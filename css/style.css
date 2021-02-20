@@ -1,0 +1,140 @@
+.heading-primary {
+  color: rgb(15, 45, 100);
+  margin-bottom: 2.5rem;
+}
+.heading-secondary {
+}
+.heading-tertiary {
+}
+.heading-primary--main {
+  display: block;
+  font-size: 10rem;
+  font-weight: 350;
+  letter-spacing: 0.6rem;
+}
+.heading-primary--sub {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 350;
+  letter-spacing: 0.6rem;
+}
+
+.header {
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); }
+}
+@media(max-width: 56.25em){
+    .header{
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    }
+}
+.header__name_and_title {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+}
+.margin-bottom-lg {
+  margin-bottom: 8rem;
+}
+.margin-bottom-med {
+  margin-bottom: 4rem;
+}
+.margin-bottom-sm {
+  margin-bottom: 1.5rem;
+}
+.about {
+}
+.row {
+}
+.vert-allign-text {
+  text-align: center;
+}
+.two-cols {
+}
+
+.technology-icons {
+  position: relative;
+}
+.technology-icon {
+  width: 50%;
+  -webkit-filter: drop-shadow(1px 1px 2px #222);
+  filter: drop-shadow(1px 1px 2px #222);
+  border-radius: 2px;
+  z-index: 10;
+  position: absolute;
+}
+@media (max-width: 56.25em){
+    .technology-icon{
+        float:left;
+        position: relative;
+        width: 28.33%;
+    }
+}
+.technology-icon-1 {
+    top: 0;
+    left: 0;
+    width 33%;
+}
+@media (max-width: 56.25em){
+    .technology-icon-1{
+        top: 0;
+        left: 0;
+        width: 33%;
+    }
+}
+.technology-icon-2 {
+    top: 0;
+    left: 66%;
+    width 33%;
+}
+@media (max-width: 56.25em){
+    .technology-icon-2{
+        top: 0;
+        left: 0;
+        width: 33%;
+        z-index: 100;
+    }
+}
+.technology-icon-3 {
+    top: 50%;
+    left:33%;
+    width 35%;
+}
+@media (max-width: 56.25em){
+    .technology-icon-3{
+        top: 0;
+        left: 0;
+        width: 33%;
+    }
+}
+
+.footer {
+}
+.footer-navigation {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-copyright {
+}
+
+.btn {
+}
+.btn--animated {
+}
+.btn--white {
+  background-color: #fff;
+  color: #777;
+}
