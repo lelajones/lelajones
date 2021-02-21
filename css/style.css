@@ -1,12 +1,40 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+}
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(30, 115, 172, 0.7),
+    rgba(142, 57, 153, 0.6)
+  );
+  background-size: cover;
+  background-position: top;
+}
+.header__name_and_title {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .heading-primary {
   color: rgb(15, 45, 100);
   margin-bottom: 2.5rem;
 }
 /*
 .heading-secondary {
-}
-.heading-tertiary {
 }*/
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
 .heading-primary--main {
   display: block;
   font-size: 5rem;
@@ -19,38 +47,33 @@
   font-weight: 350;
   letter-spacing: 0.6rem;
 }
-
-.header {
-  height: 95vh;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(30, 115, 172, 0.7),
-    rgba(142, 57, 153, 0.6)
-  );
-  background-size: cover;
-  background-position: top;
-}
 /*
 @media (max-width: 56.25em) {
   .header {
   }
 }*/
-.header__name_and_title {
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+/*
+.btn {
+}
+.btn--animated {
+}
+.smooth-goto{
+}
+*/
+.btn--white {
+  background-color: #fff;
+  color: #777;
 }
 
-body {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.7;
-  color: #777;
-  padding: 3rem;
+.about {
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.vert-allign-text {
+  text-align: center;
 }
 .margin-bottom-lg {
   margin-bottom: 8rem;
@@ -61,18 +84,13 @@ body {
 .margin-bottom-sm {
   margin-bottom: 1.5rem;
 }
-.about {
-  background-color: #f7f7f7;
-  padding: 2rem 0;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
 
-.vert-allign-text {
-  text-align: center;
-}
 .row .two-cols {
   width: calc((100%-5rem / 2));
+}
+
+.paragraph {
+  font-size: 1.6rem;
 }
 
 .technology-icons {
@@ -145,13 +163,4 @@ body {
 .footer-item {
 }
 .footer-copyright {
-}
-
-.btn {
-}
-.btn--animated {
 }*/
-.btn--white {
-  background-color: #fff;
-  color: #777;
-}
