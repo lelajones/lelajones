@@ -2,105 +2,75 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/nav-bar.css">-->
     <title>Lela Jones | Front-End Web Developer</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__name_and_title">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Lela Jones</span>
-          <span class="heading-primary--sub">Front-End Web Developer</span>
-        </h1>
-        <a href="#resume" class="btn btn--white btn--animated smooth-goto"
-          >Resume</a
-        >
-        <a href="#projects" class="btn btn--white btn--animated smooth-goto"
-          >My Projects</a
-        >
-        <a href="#contact" class="btn btn--white btn--animated smooth-goto"
-          >Contact me</a
-        >
+    <div class="header">
+        <div class="header__name_and_title">
+          <span class="heading-primary--name">Lela Jones</span>
+          <span class="heading-primary--title">Front-End Web Developer</span>
+        </div>
+        <div class="header-links">
+          <a href="Lela Jones.pdf" download="Lela Jones.pdf" target="_blank" rel="noreferrer noopener" class="btn-header-links" id="resume_download_container"
+            >Resume</a
+          >
+          <!--<script src="/Components/resume_download.js"></script>-->
+          <a href="#projects" class="btn-header-links"
+            >My Projects</a
+          >
+          <a href="#contact" class="btn-header-links"
+            >Contact me</a
+          >
+        </div>
       </div>
     </header>
+    
     <main>
-      <section class="about">
+      <section class="main-about">
         <div class="vert-allign-text margin-bottom-lg">
           <h2 class="heading-secondary">
             Entry-Level Front-End
             <br />Web Developer
           </h2>
         </div>
-        <div class="row">
-          <div class="two-cols">
-            <h3 class="heading-tertiary margin-bottom-sm">About me.</h3>
-            <p class="paragraph">
-              My name is Lela Jones and I am a front end web developer based in
-              Dallas, TX. I graduated from the University of North Texas in
-              Spring 2021 with a degree in Computer Science. I specialize in
-              bulding websites and applications using react.
-            </p>
-            <p class="paragrpah">
-                Here are a few technologies I've worked with recently:
-                <ul>
-                    <li>Javascript</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>React</li>
-                    <li>C/C++</li>
-                </ul>
-            </p>
-          </div>
-          <!--<div class="two-cols">
-            <div class="technology-icons">
-              <img
-                src="images/javascript.png"
-                alt="js"
-                class="technology-icon technology-icon-1"
-              />
-              <img
-                src="images/react.png"
-                alt="react"
-                class="technology-icon technology-icon-2"
-              />
-              <img
-                src="images/nodejs.png"
-                alt="node"
-                class="technology-icon technology-icon-3"
-              />
-            </div>
-          </div>-->
+        <div class="two-cols">
+          <h3 class="heading-tertiary margin-bottom-sm">About me.</h3>
+          <p class="p-about">
+            My name is Lela Jones and I am a front end web developer based in
+            Dallas, TX. I graduated from the University of North Texas in
+            Spring 2021 with a degree in Computer Science. I specialize in
+            bulding websites and applications using react.
+          </p>
+          <p class="paragrpah">
+              Here are a few technologies I've worked with recently:
+              <ul class="technologies">
+                  <li>Javascript</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                  <li>React</li>
+                  <li>C/C++</li>
+              </ul>
+          </p>
         </div>
       </section>
-      <section class="section-projects" id="projects">
-          <p>This is where I will list my projects.</p>
+      <section class="main-projects" id="projects">
       </section>
-    </main>
-    <footer class="footer">
-        <div class="row">
-            <div class="two-cols">
-                <div class="footer-navigation">
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="https://github.com/lelajones" class="footer_link">Github</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="https://github.com/lelajones" class="footer_link">Resume</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="https://www.linkedin.com/in/lelajones/" class="footer_link">LinkedIn</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="https://github.com/lelajones" class="footer_link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="two-cols">
-                <p class=footer-copyright>
-                    Site Created By: Lela Jones
-                </p>
-            </div>
+    </main> 
+    <footer class="footer" >
+        <div class="footer-contact" id="contact">
+            <a href="https://github.com/lelajones" target="_blank" rel="noreferrer noopener" class="btn-footer-links">Github</a>
+            <a href="Lela Jones.pdf" download="Lela Jones.pdf" target="_blank" rel="noreferrer noopener" class="btn-footer-links" id="resume_download_container">Resume</a>
+            <a href="https://www.linkedin.com/in/lelajones/" target="_blank" class="btn-footer-links">LinkedIn</a>
         </div>
+        <p class="footer-copyright">
+          Site Created By: Lela Jones
+        </p>
     </footer>
+    <!--<script>
+      $(document).ready(function(){
+      $(window).scrollTop(0);
+      });
+    </script>-->
   </body>
 </html>
