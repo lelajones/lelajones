@@ -1,0 +1,4 @@
+Created html and css files
+installed heroku - initially wont deploy app, needs node i think
+installed node - npm init, npm install express
+installed eslint - npm install eslint --save-dev, npx eslint --init
