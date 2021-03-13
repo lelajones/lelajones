@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--<link rel="stylesheet" href="css/nav-bar.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <title>Lela Jones | Front-End Web Developer</title>
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100">
+  <body id="page-top" data-spy="scroll" data-offset="100">
     <div class="header">
-        <div class="header__name_and_title">
-          <span class="heading-primary--name">Lela Jones</span>
-          <span class="heading-primary--title">Front-End Web Developer</span>
-        </div>
-        <div class="header-links">
-          <a href="Lela Jones.pdf" download="Lela Jones.pdf" target="_blank" rel="noreferrer noopener" class="btn-header-links" id="resume_download_container"
-            >Resume</a
-          >
-          <!--<script src="/Components/resume_download.js"></script>-->
-          <a href="#portfolio" class="btn-header-links"
-            >My Projects</a
-          >
-          <a href="#contact" class="btn-header-links"
-            >Contact me</a
-          >
-        </div>
+      <div class="header__name_and_title">
+        <span class="heading-primary--name">Lela Jones</span>
+        <span class="heading-primary--title">Front-End Web Developer</span>
       </div>
-    </header>
-    
+      <div class="header-links">
+        <a
+          href="Lela Jones.pdf"
+          download="Lela Jones.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="btn-header-links"
+          id="resume_download_container"
+          >Resume</a
+        >
+        <a href="#portfolio" class="btn-header-links">My Projects</a>
+        <a href="#contact" class="btn-header-links">Contact me</a>
+      </div>
+    </div>
+
     <main>
       <section class="main-about">
         <div class="vert-allign-text margin-bottom-lg">
-          <h2 class="heading-secondary">
-            Entry-Level Front-End
-            <br />Web Developer
+          <h2 class="section-heading">
+              About me.
           </h2>
-        </div>
-        <div class="two-cols">
+          </div>
+          <div class="two-cols">
           <h3 class="heading-tertiary margin-bottom-sm">About me.</h3>
           <p class="p-about">
-            My name is Lela Jones and I am a front end web developer based in
-            Dallas, TX. I graduated from the University of North Texas in
-            Spring 2021 with a degree in Computer Science. I specialize in
-            bulding websites and applications using react.
+              My name is Lela Jones and I am a front end web developer based in
+              Dallas, TX. I graduated from the University of North Texas in
+              Spring 2021 with a degree in Computer Science. I specialize in
+              bulding websites and applications using react. 
+              I currently work for a Property Management Company, Elmstone Group, 
+              where I initially started as a Leasing Consultant, moved to an IT Consultant, and now work as the Area Manager.
           </p>
           <p class="paragrpah">
               Here are a few technologies I've worked with recently:
@@ -56,145 +56,279 @@
           </p>
         </div>
       </section>
-
       <!--PORTFOLIO CARDS-->
-      <section class="main-projects" id="portfolio">
-        <div class="container">
-          <div class="col-lg-12 text-center">
-              <h2 class="section-heading">My Projects</h2>
+      <section class="main-projects text-center" id="portfolio">
+            <h2 class="section-heading">My Projects</h2>
           </div>
           <!--LELA JONES CARD-->
           <div class="row portfolio-row">
-              <div class="portfolio-item-wrapper wp5">
-                  <div class="portfolio-item" data-toggle="modal" href="#lelaJonesModal">
-                      <div class="portfolio-overlay"></div>
-                      <div class="links">
-                          <a class="image-link"><em class="fa fa-search-plus"></em></a>
-                          <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
-                      </div>
-                      <img src="images/Image 2-23-21 at 5.33 PM.png" alt="lelajones.com">
-                      <div class="portfolio-info">
-                          <h3>Lelajones.com</h3>
-                      </div>
-                  </div>
+            <div class="portfolio-item-wrapper wp5">
+              <div
+                class="portfolio-item"
+                data-toggle="modal"
+                href="#lelaJonesModal"
+              >
+                <div class="portfolio-overlay"></div>
+                <div class="links">
+                  <a class="image-link"><em class="fa fa-search-plus"></em></a>
+                </div>
+                <img
+                  src="images/Image 2-23-21 at 5.33 PM.png"
+                  alt="lelajones.com-IMG"
+                />
+                <div class="portfolio-info">
+                  <h3>My First Website</h3>
+                </div>
               </div>
-              <!--PROJECT 2 CARD-->
-              <div class="portfolio-item-wrapper wp5">
-                  <div class="portfolio-item" data-toggle="modal" href="#project2">
-                      <div class="portfolio-overlay"></div>
-                      <div class="links">
-                          <a class="image-link"><em class="fa fa-search-plus"></em></a>
-                          <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
-                      </div>
-                      <img src="images/Image 2-23-21 at 5.33 PM.png" alt="project2">
-                      <div class="portfolio-info">
-                          <h3>Project 2</h3>
-                      </div>
-                  </div>
+            </div>
+            <!--ABET Project - Captstone CARD-->
+            <div class="portfolio-item-wrapper wp5">
+              <div class="portfolio-item" data-toggle="modal" href="#ABETModal">
+                <div class="portfolio-overlay"></div>
+                <div class="links">
+                  <a class="image-link"><em class="fa fa-search-plus"></em></a>
+                </div>
+                <img src="images/ABET-Screenshot.png" alt="ABET-Screenshot" />
+                <div class="portfolio-info">
+                  <h3>Capstone Project</h3>
+                </div>
               </div>
-              <!--PROJECT 3 CARD-->
-              <div class="portfolio-item-wrapper wp5">
-                  <div class="portfolio-item" data-toggle="modal" href="#project3">
-                      <div class="portfolio-overlay"></div>
-                      <div class="links">
-                          <a class="image-link"><em class="fa fa-search-plus"></em></a>
-                          <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
-                      </div>
-                      <img src="images/Image 2-23-21 at 5.33 PM.png" alt="project3">
-                      <div class="portfolio-info">
-                          <h3>Project 3</h3>
-                      </div>
-                  </div>
+            </div>
+            <!--BASIC LOGIN CARD-->
+            <div class="portfolio-item-wrapper wp5">
+              <div class="portfolio-item" data-toggle="modal" href="#basicLoginSystemModal">
+                <div class="portfolio-overlay"></div>
+                <div class="links">
+                  <a class="image-link"><em class="fa fa-search-plus"></em></a>
+                </div>
+                <img src="images/basic-login-1.png" alt="basic-login-1" />
+                <div class="portfolio-info">
+                  <h3>Basic Login System with Python</h3>
+                </div>
               </div>
-          </div>
-        </div>
+            </div>
       </section>
       <!--PORTFOLIO MODALS-->
       <!--LELAJONES MODAL-->
-      <div class="modal fade" id="lelaJonesModal" tabindex="-1" role="dialog" aria-labelledby="lelaJonesModal" aria-hidden="true">
+      <div
+        class="modal fade"
+        id="lelaJonesModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="lelaJonesModal"
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">My First Website</h4>
-                    <h6 class="modal-title-description">Lelajones.com</h6>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <img class="img-responsive img-centered" src="images/Image 2-23-21 at 5.33 PM.png" alt="">
-                    </p>
-                    <p class="modal-description">This was one of my first projects outside of school. My goal was to expand my existing skillset of Javascript, CSS, HTML, Node, and React.</p>
-                    <p class="visit"><a href="http://lelajones.com" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/lelajones/lelajones" target="_blank" id="visit-btn">View Source</a></p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                &times;
+              </button>
+              <h4 class="modal-title">My First Website</h4>
+              <h6 class="modal-title-description">Lelajones.com</h6>
             </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  class="img-responsive img-centered"
+                  src="images/Image 2-23-21 at 5.33 PM.png"
+                  alt=""
+                />
+              </p>
+              <p class="modal-description">
+                This was one of my first projects outside of school. My goal was
+                to expand my existing skillset of Javascript, CSS, HTML, Node,
+                and React.
+              </p>
+              <p class="visit">
+                <a href="http://lelajones.com" target="_blank" id="visit-btn"
+                  >Visit Site</a
+                >
+                or
+                <a
+                  href="https://github.com/lelajones/lelajones"
+                  target="_blank"
+                  id="visit-btn"
+                  >View Source</a
+                >
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!--PROJECT 2 MODAL-->
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+      <!--ABET CAPSTONE MODAL-->
+      <div
+        class="modal fade"
+        id="ABETModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="ABETModal"
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Project 2</h4>
-                    <h6 class="modal-title-description"> Proj 2 descr</h6>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <img class="img-responsive img-centered" src="images/Image 2-23-21 at 5.33 PM.png" alt="">
-                    </p>
-                    <p class="modal-description">Try to find attatchemnts of the webspage for 4444, 3400, 4910, etc...</p>
-                    <Br>
-                    <!--<p class="modal-description"><strong>Note:</strong> For an optimal experience, use chrome with your sound on</p>
-                    <p class="modal-description"><strong>Warning:</strong> Very resource heavy &mdash; efficiency &amp; optimization was definitely not a concern for this project.</p>-->
-                    <p class="visit"><a href="http://lelajones.com" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/lelajones/lelajones" target="_blank" id="visit-btn">View Source</a></p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                &times;
+              </button>
+              <h4 class="modal-title">Final Capstone Project</h4>
+              <h6 class="modal-title-description">
+                Accreditation Board for Engineering and Technology System
+              </h6>
             </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  class="img-responsive img-centered"
+                  src="images/ABET-Screenshot.png"
+                  alt="ABET-Screenshot"
+                />
+              </p>
+              <p class="modal-description">
+                This project consisted of 10 team members, including myself. I
+                primarily worked front-end and helped to integrate with the
+                back-end.
+              </p>
+              <br />
+              <p class="modal-description">
+                <strong
+                  >Note: This was a group project for my captsone course during
+                  my senior semester in school, therefore I am unable to share
+                  my sourcecode.</strong
+                >
+              </p>
+              <p class="modal-description">
+                <strong
+                  >Languages and Tools Used: C#, .net, javascript, html, css,
+                  react, next.js, node.js.</strong
+                >
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
-    <!--PROJECT 3 MODAL-->
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+      </div>
+      <!--BASIC LOGIN PYTHON MODAL-->
+      <div
+        class="modal fade"
+        id="basicLoginSystemModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="basicLoginSystemModal"
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Project 3</h4>
-                    <h6 class="modal-title-description">Proj 3 descr</h6>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <img class="img-responsive img-centered" src="images/Image 2-23-21 at 5.33 PM.png" alt="">
-                    </p>
-                    <p class="modal-description">Try to find attatchemnts of the webspage for 4444, 3400, 4910, etc...</p>
-                    <Br>
-                    <p class="modal-description"><strong>Note:</strong> Model Descr</p>
-                    <p class="visit"><a href="lelajones.com" target="_blank" id="visit-btn">Visit Site</a></p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                &times;
+              </button>
+              <h4 class="modal-title">Basic Login System</h4>
+              <h6 class="modal-title-description">
+                Basic Login System in Pyton with Database
+              </h6>
             </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  class="img-responsive img-centered"
+                  src="images/basic-login-2.png"
+                  alt="basic-login-1"
+                />
+              </p>
+              <p class="modal-description">
+                I was exploring basic python functionailty in this project.
+              </p>
+              <br />
+              <p class="modal-description">
+                <strong>Note: </strong>My end goal is to turn this into a
+                2-factor authentication system. The user will attempt to log in.
+                If the information provided is correct, the system will send a 6
+                digit number to the user. The user will then need to provide the
+                correct number to be admitted into their account.
+              </p>
+              <p class="visit">
+                <a
+                  href="https://github.com/lelajones/basic-login-python"
+                  target="_blank"
+                  id="visit-btn"
+                  >View Source</a
+                >
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
-    </div>
-
-    </main> 
-    <footer class="footer" >
-        <div class="footer-contact" id="contact">
-            <a href="https://github.com/lelajones" target="_blank" rel="noreferrer noopener" class="btn-footer-links">Github</a>
-            <a href="Lela Jones.pdf" download="Lela Jones.pdf" target="_blank" rel="noreferrer noopener" class="btn-footer-links" id="resume_download_container">Resume</a>
-            <a href="https://www.linkedin.com/in/lelajones/" target="_blank" class="btn-footer-links">LinkedIn</a>
-        </div>
-        <p class="footer-copyright">
-          Site Created By: Lela Jones
-        </p>
+      </div>
+    </main>
+    <footer class="footer" id="contact">
+      <h2 class="section-heading">Contact me!</h2>
+      <a
+        href="https://github.com/lelajones"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="btn-footer-links"
+        >Github</a
+      >
+      <a
+        href="Lela Jones.pdf"
+        download="Lela Jones.pdf"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="btn-footer-links"
+        id="resume_download_container"
+        >Resume</a
+      >
+      <a
+        href="https://www.linkedin.com/in/lelajones/"
+        target="_blank"
+        class="btn-footer-links"
+        >LinkedIn</a
+      >
+      <p class="footer-copyright">Site Created By: Lela Jones</p>
     </footer>
-    
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -202,17 +336,17 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <!-- Helpers 
-    <script src="js/scrolling-nav.js"></script> -->
+        <script src="js/scrolling-nav.js"></script> -->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/custom.js"></script>
     <!-- Main js File-->
     <script src="js/bootstrap.min.js"></script>
-<!--
-    <script>
-      $(document).ready(function(){
-      $(window).scrollTop(0);
-      });
-    </script>-->
+    <!--
+        <script>
+            $(document).ready(function(){
+            $(window).scrollTop(0);
+            });
+        </script>-->
   </body>
 </html>
