@@ -15,37 +15,28 @@ body {
   overflow: hidden;
   text-align: center;
   padding: 1rem;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(103, 158, 194, 0.7),
-    rgba(134, 89, 139, 0.6)
   );
   background-size: cover;
   background-position: top;
 }
-.header-box {
-  padding: 1rem;
+.header-name-title {
+  padding: 2rem;
   position: relative;
-  height: 115px;
+  height: 140px;
 
   backface-visibility: hidden;
 }
-.header-links {
-  padding: 1rem;
-  font-size: 1.5rem;
-  font-weight: 350;
-}
+
 .section-heading {
-  padding: 1rem;
+  padding: 4rem;
   position: relative;
-  height: 80px;
   font-size: 3rem;
   font-weight: 350;
   letter-spacing: 0.6rem;
 }
 .heading-primary--name {
   display: block;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 350;
   letter-spacing: 0.6rem;
 
@@ -78,19 +69,21 @@ body {
 .btn-links:hover{
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  color: white;
 }
 .main-about {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(160, 135, 194, 0.6)
-  );
+  background-image: "";
   text-align: center;
   padding: 1rem;
   padding-bottom: 3rem;
 }
+.main-experience{
+  background-color: rgba(221, 205, 247, 0.6);
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
 .paragrpah{
-  padding: 3rem;
+  padding: 1rem;
 }
 .two-cols {
   column-count: 2;
@@ -102,7 +95,7 @@ body {
 .p-about {
   font-size: small;
   padding-top: 6rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .profile-pic {
@@ -185,10 +178,6 @@ ul.technologies {
 #portfolio * {
   z-index: 2;
 }
-#portfolio .portfolio-row {
-  margin-left: 50px;
-  margin-right: 50px;
-}
 
 @media (max-width: 950px) {
   #portfolio .portfolio-row {
@@ -209,7 +198,7 @@ ul.technologies {
   width: 31%;
   display: inline-block;
   padding: 0 0 5px;
-  margin: 0 1% 30px;
+  margin: 0 1% 0;
   vertical-align: top;
 }
 
@@ -413,8 +402,8 @@ ul.technologies {
   padding: 2rem;
   background-image: linear-gradient(
     to right bottom,
-    rgba(103, 158, 194, 0.7),
-    rgba(134, 89, 139, 0.6)
+    rgba(250, 250, 250, 0.7),
+    rgba(73, 28, 28, 0.6)
   );
   background-size: cover;
   background-position: bottom;
